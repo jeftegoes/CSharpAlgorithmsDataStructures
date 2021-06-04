@@ -4,12 +4,10 @@ namespace BubbleSort
     {
         public static void Swap(int[] array, int i, int j)
         {
-            var temp = 0;
-
             if (i == j)
                 return;
 
-            temp = array[i];
+            var temp = array[i];
             array[i] = array[j];
             array[j] = temp;
         }
